@@ -16,8 +16,7 @@ class Admin extends User {
             return $stmt->fetchAll(PDO::FETCH_ASSOC);
         } catch (PDOException $e) {
             echo "Error fetching users: " . $e->getMessage();
-            return [];
-        }
+e;        }
     }
 
    
